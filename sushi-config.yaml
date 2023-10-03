@@ -55,6 +55,8 @@ pages:
     title: Concepts 
   generic-personas.md:
     title: Generic Personas 
+  user-scenarios.md:
+    title: User Scenarios 
   business-processes.md:
     title: Business Processes 
   decision-support-logic.md:
