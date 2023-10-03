@@ -1,0 +1,40 @@
+{
+  "resourceType": "Practitioner",
+  "id": "253373",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-06-11T05:27:53.137+00:00",
+    "source": "#2OPkFH40xnUuPvVi"
+  },
+  "identifier": [ {
+    "system": "https://kpininja.com/identifier"
+  }, {
+    "system": "urn:oid:2.16.840.1.113883.4.6",
+    "value": "99999999"
+  } ],
+  "name": [ {
+    "use": "official",
+    "family": "Seven",
+    "given": [ "Henry" ],
+    "suffix": [ "Henry" ]
+  } ],
+  "telecom": [ {
+    "system": "phone",
+    "value": "tel:555-555-1002"
+  }, {
+    "system": "phone",
+    "use": "home"
+  } ],
+  "address": [ {
+    "use": "home"
+  } ],
+  "qualification": [ {
+    "code": {
+      "coding": [ {
+        "system": "http://nucc.org/provider-taxonomy",
+        "code": "204C00000X",
+        "display": "Neuromusculoskeletal Medicine, Sports Medicine"
+      } ]
+    }
+  } ]
+}
