@@ -13,6 +13,7 @@
     <ul class="dropdown-menu">
       <li><a href="concepts.html">Concepts</a></li>
       <li><a href="generic-personas.html">Generic Personas</a></li>
+      <li><a href="user-scenarios.html">User Scenarios</a></li>
       <li><a href="business-processes.html">Business Processes</a></li>
       <li><a href="decision-support-logic.html">Decision Support Logic</a></li>
        <li><a href="functional-requirements.html">Functional Requirements</a></li>
