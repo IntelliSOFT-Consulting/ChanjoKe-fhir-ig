@@ -232,3 +232,76 @@ The workflows that follow depict processes that have been generalized across dif
     </tr>
   </tbody>
 </table>
+
+####  Workflows
+
+##### A. Query client record
+<b>Objective: </b> To correctly identify, review and/or update a client's immunization record to provide a complete immunization history.
+
+<b>Figure:  Query Client Record </b>
+
+  <div> 
+    <img src="client-query.png" alt="Query client record Flow" style="width:85%"/>
+  </div>
+<br/>
+
+##### B. Register Client
+
+<b> Objective: </b> To start client’s lifelong immunization record
+
+<b>Figure:  Register client </b>
+
+  <div> 
+    <img src="register-client.png" alt="Register Client Flow" style="width:85%"/>
+  </div>
+<br/>
+
+
+##### C. Administer vaccine
+
+<b> Objective: </b> To determine what vaccines a client needs, administer those and record the data both in the system and client’s vaccination card.
+
+<b>Figure:  Administer vaccine </b>
+
+  <div> 
+    <img src="administer-vaccine-workflow.png" alt="Administer vaccine Workflow" style="width:85%"/>
+  </div>
+<br/>
+
+
+##### D. Client reminder
+
+<b> Objective: </b> To send vaccination reminders to client or caregiver that client is due.
+
+<b>Figure:  Client reminder</b>
+
+  <div> 
+    <img src="client-reminder.png" alt="Client Reminder Workflow" style="width:85%"/>
+  </div>
+<br/>
+
+##### E. Defaulter tracing
+
+<b> Objective: </b> To identify clients that are overdue for follow-up.
+
+<b>Figure: Defaulter tracing </b>
+
+  <div> 
+    <img src="defaulter-tracing.png" alt="Defaulter Tracing Workflow" style="width:85%"/>
+  </div>
+<br/>
+
+##### F.  Report generation
+
+<b> Objective: </b>  To provide data access and analysis for decision-making.
+
+<b>Figure:  Report generation </b>
+
+  <div> 
+    <img src="report-generation.png" alt="Report Generation Workflow" style="width:85%"/>
+  </div>
+<br/>
+
+
+
+
