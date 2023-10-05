@@ -3,7 +3,7 @@
   <li class="dropdown">
     <a data-toggle="dropdown" href="index.html" class="dropdown-toggle">Home<b class="caret"></b></a>
     <ul class="dropdown-menu">
-      <li><a href="dependancies.html">Summary</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="dependancies.html">Changes</a></li>
     </ul>
   </li>
@@ -25,7 +25,8 @@
    <li class="dropdown">
     <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artifacts<b class="caret"></b></a>
     <ul class="dropdown-menu">
-      <li><a href="artifacts.html#terminology-value-sets#">Terminology</a></li>
+      <li><a href="artifacts.html">Artifacts</a></li>
+      <li><a href="artifacts.html#terminology-value-sets">Terminology</a></li>
     </ul>
   </li>
 </ul>  
