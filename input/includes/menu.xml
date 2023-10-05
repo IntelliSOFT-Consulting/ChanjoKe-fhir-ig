@@ -20,4 +20,12 @@
        <li><a href="non-functional-requirements.html">Non-Functional Requirements</a></li>
     </ul>
   </li>
+
+
+   <li class="dropdown">
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artifacts<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+      <li><a href="artifacts.html#terminology-value-sets#">Terminology</a></li>
+    </ul>
+  </li>
 </ul>  
