@@ -1,5 +1,6 @@
 Alias: $cvx = http://hl7.org/fhir/sid/cvx
 Alias: $atc = http://www.whocc.no/atc
+Alias: $ind = http://health.gov.tz/CodeSystems/KenyanImmunizationNotDoneReasons
 
 ValueSet: VaccinesValueSet
 Id: VaccinesValueSet
@@ -16,3 +17,10 @@ Description: "This is a mixed value set"
 * $cvx#10
 * $cvx#107
 * $atc#V04CB01
+
+
+ValueSet: KenyanImmunizationNotDoneReasonsVS
+Id: KenyanImmunizationNotDoneReasonsVS
+Title: "Reason Vaccine not administered"
+Description: "Reasons a Vaccine was not administered (Kenyan National Program)"
+* include codes from system $ind

@@ -48,3 +48,19 @@ Title: "Tanzanian Vaccine Codes"
 * #V026 "Sinopharm BBIBP-2" "SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (BIBP, Sinopharm)"
 * #V026 ^property.code = #cvx
 * #V026 ^property.valueCode = #~510
+
+CodeSystem: KenyanImmunizationNotDoneReasonsCS
+Id: KenyanImmunizationNotDoneReasonsCS
+Title: "Reason Vaccine not administered"
+* ^url = "http://health.gov.tz/CodeSystems/KenyanImmunizationNotDoneReasons"
+* ^version = "0.1.0"
+* ^status = #draft
+* ^copyright = "Public Domain of some kind"
+* ^content = #complete
+* #Stock "Product out of stock"	"There was no supply of the product on hand to perform the service."
+* #ColdChainBreak "Cold chain break" "The vaccine experienced a cold chain break."
+* #ClientObjection "Client objection" "The client or their guardian objects to receiving the vaccine."
+* #Caregiver "Caregiver refusal" "The client's caregiver refused the vaccine."
+* #Expired "Expired product" "The vaccine was expired at the time of administration."
+* #Disease "Client acquired the disease" "The immunization event was not carried out due to the client having had the disease."
+* #Unspecified "Unspecified reason" "The immunization event was not carried out for an unspecified reason."
