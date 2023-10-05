@@ -1,0 +1,68 @@
+{
+    "resourceType" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/CodeSystem/VaccineCodes",
+    "version" : "0.1.0",
+    "name" : "KenyaVaccineCodes",
+    "title" : "Kenya Vaccine Codes",
+    "status" : "draft",
+    "copyright" : "",
+    "content" : "complete",
+    "concept" : [
+        {
+            "code" : "BCG",
+            "display" : "BCG",
+            "definition" : "Bacillus Calmette-Guerin vaccine",
+            "property" : [
+                {
+                    "system": "http://hl7.org/fhir/sid/cvx",
+                    "code" : "cvx",
+                    "valueCode" : "19"
+                }
+            ]
+        }, {
+            "code" : "OPV",
+            "display" : "OPV",
+            "definition" : "Oral Polio Vaccine",
+            "property" : [
+                {
+                    "system": "http://hl7.org/fhir/sid/cvx",
+                    "code" : "cvx",
+                    "valueCode" : "2"
+                }
+            ]
+        }, {
+            "code" : "PCV",
+            "display" : "PCV 10",
+            "definition" : "Pneumococcal Conjugate Vaccine",
+            "property" : [
+                {
+                    "system": "http://hl7.org/fhir/sid/cvx",
+                    "code" : "cvx",
+                    "valueCode" : "177"
+                }
+            ]
+        }, {
+            "code" : "Rota",
+            "display" : "Rota",
+            "definition" : "Rotavirus vaccine",
+            "property" : [
+                {
+                    "system": "http://hl7.org/fhir/sid/cvx",
+                    "code" : "cvx",
+                    "valueCode" : "122"
+                }
+            ]
+        },{
+            "code" : "DTP-Hib-Hep-B",
+            "display" : "DTP-Hib-Hep B",
+            "definition" : "Diptheria, Pertussis, Haemophilus influenzae type b",
+            "property" : [
+                {
+                    "system": "http://hl7.org/fhir/sid/cvx",
+                    "code" : "cvx",
+                    "valueCode" : "102"
+                }
+            ]
+        }
+    ]
+}

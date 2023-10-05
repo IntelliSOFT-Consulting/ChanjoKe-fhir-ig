@@ -1,0 +1,45 @@
+{
+    "resource": "ValueSet",
+    "url": "http://hl7.org/fhir/ValueSet/immunization-vaccine-code",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "concept": [
+            {
+              "code": "19"
+            },
+            {
+              "code": "2"
+            },
+            {
+              "code": "102"
+            },
+            {
+              "code": "177"
+            },
+            {
+              "code": "122"
+            },
+            {
+              "code": "5"
+            },
+            {
+              "code": "37"
+            },
+            {
+              "code": "137"
+            }
+          ]
+        },
+        {
+          "system": "http://www.whocc.no/atc",
+          "concept": [
+            {
+              "code": "V04CB01"
+            }
+          ]
+        }
+      ]
+    }
+  }
