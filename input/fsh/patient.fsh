@@ -3,6 +3,7 @@ Profile: KenyanImmunizationRegistryPatient
 Parent: Patient
 Description: "Kenyan Registry Profile for Patient."
 * name 1..1 MS
+* gender 1..1 MS
 
 Instance: PatientExample
 InstanceOf: Patient
