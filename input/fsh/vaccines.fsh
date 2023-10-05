@@ -64,3 +64,32 @@ Title: "Reason Vaccine not administered"
 * #Expired "Expired product" "The vaccine was expired at the time of administration."
 * #Disease "Client acquired the disease" "The immunization event was not carried out due to the client having had the disease."
 * #Unspecified "Unspecified reason" "The immunization event was not carried out for an unspecified reason."
+
+CodeSystem: KenyaVaccineCodes
+Id: KenyaVaccineCodes
+Title: "Kenya Vaccine Codes"
+* ^url = "http://hl7.org/fhir/CodeSystem/VaccineCodes"
+* ^version = "0.1.0"
+* ^status = #draft
+* ^copyright = ""
+* ^content = #complete
+* #BCG "BCG" "Bacillus Calmette-Guerin vaccine"
+* #BCG ^property.system = "http://hl7.org/fhir/sid/cvx"
+* #BCG ^property.code = #cvx
+* #BCG ^property.valueCode = #19
+* #OPV "OPV" "Oral Polio Vaccine"
+* #OPV ^property.system = "http://hl7.org/fhir/sid/cvx"
+* #OPV ^property.code = #cvx
+* #OPV ^property.valueCode = #2
+* #PCV "PCV 10" "Pneumococcal Conjugate Vaccine"
+* #PCV ^property.system = "http://hl7.org/fhir/sid/cvx"
+* #PCV ^property.code = #cvx
+* #PCV ^property.valueCode = #177
+* #Rota "Rota" "Rotavirus vaccine"
+* #Rota ^property.system = "http://hl7.org/fhir/sid/cvx"
+* #Rota ^property.code = #cvx
+* #Rota ^property.valueCode = #122
+* #DTP-Hib-Hep-B "DTP-Hib-Hep B" "Diptheria, Pertussis, Haemophilus influenzae type b"
+* #DTP-Hib-Hep-B ^property.system = "http://hl7.org/fhir/sid/cvx"
+* #DTP-Hib-Hep-B ^property.code = #cvx
+* #DTP-Hib-Hep-B ^property.valueCode = #102
