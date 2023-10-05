@@ -1,3 +1,5 @@
+Alias: $cvx = http://hl7.org/fhir/sid/cvx
+
 CodeSystem: TanzanianVaccineCodes
 Id: TanzanianVaccineCodes
 Title: "Tanzanian Vaccine Codes"
@@ -73,23 +75,21 @@ Title: "Kenya Vaccine Codes"
 * ^status = #draft
 * ^copyright = ""
 * ^content = #complete
+* ^property.code = #cvxp
+* ^property.description = "cvx mapping for this code"
+* ^property.type = #Coding
 * #BCG "BCG" "Bacillus Calmette-Guerin vaccine"
-* #BCG ^property.system = "http://hl7.org/fhir/sid/cvx"
-* #BCG ^property.code = #cvx
-* #BCG ^property.valueCode = #19
+* #BCG ^property.code = #cvxp
+* #BCG ^property.valueCoding = $cvx#19
 * #OPV "OPV" "Oral Polio Vaccine"
-* #OPV ^property.system = "http://hl7.org/fhir/sid/cvx"
-* #OPV ^property.code = #cvx
-* #OPV ^property.valueCode = #2
+* #OPV ^property.code = #cvxp
+* #OPV ^property.valueCode = $cvx#2
 * #PCV "PCV 10" "Pneumococcal Conjugate Vaccine"
-* #PCV ^property.system = "http://hl7.org/fhir/sid/cvx"
-* #PCV ^property.code = #cvx
-* #PCV ^property.valueCode = #177
+* #PCV ^property.code = #cvxp
+* #PCV ^property.valueCode = $cvx#177
 * #Rota "Rota" "Rotavirus vaccine"
-* #Rota ^property.system = "http://hl7.org/fhir/sid/cvx"
-* #Rota ^property.code = #cvx
-* #Rota ^property.valueCode = #122
+* #Rota ^property.code = #cvxp
+* #Rota ^property.valueCode = $cvx#122
 * #DTP-Hib-Hep-B "DTP-Hib-Hep B" "Diptheria, Pertussis, Haemophilus influenzae type b"
-* #DTP-Hib-Hep-B ^property.system = "http://hl7.org/fhir/sid/cvx"
-* #DTP-Hib-Hep-B ^property.code = #cvx
-* #DTP-Hib-Hep-B ^property.valueCode = #102
+* #DTP-Hib-Hep-B ^property.code = #cvxp
+* #DTP-Hib-Hep-B ^property.valueCode = $cvx#102
