@@ -1,6 +1,6 @@
 Alias: $cvx = http://hl7.org/fhir/sid/cvx
 Alias: $atc = http://www.whocc.no/atc
-Alias: $ind = http://health.gov.tz/CodeSystems/KenyanImmunizationNotDoneReasons
+Alias: $ind = http://health.go.ke/CodeSystems/KenyanImmunizationNotDoneReasons
 
 ValueSet: VaccinesValueSet
 Id: VaccinesValueSet
