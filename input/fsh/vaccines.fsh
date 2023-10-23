@@ -53,13 +53,13 @@ Title: "Tanzanian Vaccine Codes"
 
 CodeSystem: KenyanImmunizationNotDoneReasonsCS
 Id: KenyanImmunizationNotDoneReasonsCS
-Title: "Reason Vaccine not administered"
+Title: "Reason Vaccine not Administered"
 * ^url = "http://health.gov.tz/CodeSystems/KenyanImmunizationNotDoneReasons"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^copyright = "Public Domain of some kind"
 * ^content = #complete
-* #Stock "Product out of stock"	"There was no supply of the product on hand to perform the service."
+* #Stock "Product out of stock"	"There was no product supply on hand to perform the service."
 * #ColdChainBreak "Cold chain break" "The vaccine experienced a cold chain break."
 * #ClientObjection "Client objection" "The client or their guardian objects to receiving the vaccine."
 * #Caregiver "Caregiver refusal" "The client's caregiver refused the vaccine."
@@ -70,7 +70,7 @@ Title: "Reason Vaccine not administered"
 CodeSystem: KenyaVaccineCodes
 Id: KenyaVaccineCodes
 Title: "Kenya Vaccine Codes"
-* ^url = "http://hl7.org/fhir/CodeSystem/VaccineCodes"
+* ^url = "http://health.go.ke/fhir/CodeSystem/VaccineCodes"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^copyright = ""
